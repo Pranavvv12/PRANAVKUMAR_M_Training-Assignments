@@ -1,0 +1,22 @@
+a. sendKeys()
+Used to enter text or simulate typing into an input field or editable element.
+b. clear()
+Clears or deletes any existing text from an input or text field.
+c. click()
+Performs a mouse click action on a button, link, checkbox, radio button, or any clickable element.
+d. findElement()
+Locates and returns the first matching web element based on the given locator.
+e. findElements()
+Returns a list of all matching elements for the given locator (returns empty list if none found).
+f. getDomAttribute()
+Retrieves the value of the specified DOM attribute from an element (even if attribute is not visible in HTML).
+g. getScreenShotAs()
+Captures a screenshot of a particular web element and stores it using the specified output type.
+h. getText()
+Retrieves and returns visible text from a web element.
+i. isDisplayed()
+Checks whether the element is visible on the webpage and returns true or false.
+j. isEnabled()
+Checks whether the element is enabled (clickable or editable) and returns true or false.
+k. isSelected()
+Returns true if the checkbox, radio button, or selectable option is selected; otherwise returns false.

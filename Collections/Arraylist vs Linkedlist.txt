@@ -1,0 +1,19 @@
+Internal implementation :
+
+ArrayList
+Backed by a dynamic array.
+Elements are stored in contiguous memory.
+
+LinkedList
+Implemented as a doubly linked list.
+Each node stores data + previous + next reference.
+
+Use ArrayList when:
+You need fast random access by index (lots of get(i) / set(i)).
+Most operations are traversal + append at the end.
+You don’t do many insertions/deletions in the middle or beginning.
+
+Use LinkedList when:
+You frequently insert/delete at the beginning or in the middle.
+You are often working with iterators and inserting/removing via them.
+You don’t need fast random access by index.

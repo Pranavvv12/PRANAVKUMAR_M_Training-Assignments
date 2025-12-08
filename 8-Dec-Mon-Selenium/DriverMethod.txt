@@ -1,0 +1,19 @@
+a. get()
+Opens a specified URL in the browser and waits until the page loads completely.
+b. getCurrentURL()
+Returns the current active page URL as a string.
+c. getPageSource()
+Returns the entire HTML source code of the current webpage.
+d. getTitle()
+Returns the title of the current webpage.
+e. close() vs quit()
+close() closes the current active browser tab.
+quit() closes the entire browser along with all opened tabs and ends the WebDriver session.
+f. getWindowHandle()
+Returns a unique ID (String) for the current browser window.
+g. getWindowHandles()
+Returns a set of IDs for all open browser windows or tabs.
+h. navigate()
+Allows browser navigation such as refresh, forward, and backward using methods like to(), back(), forward(), and refresh().
+i. switchTo()
+Used to switch control between windows, alerts, frames, or browser tabs.
