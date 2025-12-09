@@ -21,7 +21,6 @@ public class RadioCheckBoxDemo {
 
         Thread.sleep(2000);
 
-        // Close Browser
         driver.quit();
     }
 }
